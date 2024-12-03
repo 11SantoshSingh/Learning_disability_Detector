@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Learning Disability Prediction</title>
+</head>
+<body>
+    <h1>Predict Learning Disability</h1>
+    <form action="/predict" method="post">
+        <label for="reading_age">Reading Age Assessment:</label><br>
+        <input type="text" id="reading_age" name="reading_age" required><br><br>
+        <label for="math_score">Math Score:</label><br>
+        <input type="text" id="math_score" name="math_score" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
